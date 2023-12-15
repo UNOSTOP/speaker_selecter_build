@@ -1,0 +1,12 @@
+[Unit]
+Description=Speaker Selector. See https://github.com/kudolab/speaker_selecter
+
+[Service]
+User=root
+ExecStart=/home/pi/speaker_selecter/ver4/venv/bin/python3 /home/pi/speaker_selecter/ver4/app.py
+Restart=always
+
+[Install]
+Alias=sperker_selecter
+WantedBy=multi-user.target
+

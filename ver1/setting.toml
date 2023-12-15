@@ -1,0 +1,23 @@
+# id    = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+# angle = [0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85]
+# BCM   = [4,17,27,22,5,6,13,19,26,18,23,24,25,8,7,12,16,20]
+
+[SPEAKER_IDandBCM]
+speaker1 = 4
+speaker2 = 17
+speaker3 = 27
+speaker4 = 22
+speaker5 = 5
+speaker6 = 6
+speaker7 = 13
+speaker8 = 19
+speaker9 = 26
+speaker10 = 18
+speaker11 = 23
+speaker12 = 24
+speaker13 = 25
+speaker14 = 8
+speaker15 = 7
+speaker16 = 12
+speaker17 = 16
+speaker18 = 20
