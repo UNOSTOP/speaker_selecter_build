@@ -49,7 +49,7 @@ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
 ```shell
 cd ~
-sudo git clone https://github.com/kudolab/speaker_selecter.git
+sudo git clone https://github.com/kudolab/speaker_selecter_build.git
 ```
 
 ※ " git " コマンドがないと怒られた場合、以下のコマンドでインストールしてから、やり直してください。
@@ -63,7 +63,7 @@ sudo apt-get install git
 
 ```shell
 sudo apt-get install python3-venv
-cd speaker-selecter/ver4
+cd speaker_selecter_build/ver1
 sudo python3 -m venv venv
 . ./venv/bin/activate
 # from here, (venv) is activate.
@@ -97,7 +97,7 @@ curl http://172.24.184.114/speaker
 
 ```shell
 cd ~
-sudo cp -r /speaker_selecter/ver4/conf_files/speaker-selecter.service /etc/systemd/system/speaker-selecter.service 
+sudo cp -r /speaker_selecter_build/ver1/conf_files/speaker-selecter.service /etc/systemd/system/speaker-selecter.service 
 ```
 
 次に、サービスの再読み込み、有効化、開始を行い起動状態が " active " になっていることを確認してください。

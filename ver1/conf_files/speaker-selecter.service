@@ -3,7 +3,7 @@ Description=Speaker Selector. See https://github.com/kudolab/speaker_selecter
 
 [Service]
 User=root
-ExecStart=/home/pi/speaker_selecter/ver4/venv/bin/python3 /home/pi/speaker_selecter/ver4/app.py
+ExecStart=/home/pi/speaker_selecter_build/ver1/venv/bin/python3 /home/pi/speaker_selecter_build/ver1/app.py
 Restart=always
 
 [Install]
