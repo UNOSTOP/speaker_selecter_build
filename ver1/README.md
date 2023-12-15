@@ -1,4 +1,4 @@
-# speaker_selecter ver4
+# speaker_selecter_build ver1
 
 " speaker_selecter ver3 "を参考に、Raspberry Pi OSのインストールからサーバー構築までの詳細をまとめたものです。また、GPIOの役割のみ持つピンだけを使用するように" setting.toml "を大幅に変更しました。
 
